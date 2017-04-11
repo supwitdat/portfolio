@@ -205,81 +205,53 @@ ol {
 /*---Portfolio PAGE----*/
 
 #galleryWrap {
-    height: 100%;
-    width: auto;
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 30px;
-    overflow: auto;
-    text-align: center;
-    /*border: 1px solid salmon;*/
+  width: 75%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  overflow: auto;
 }
 
-.portfolioLink {
-  text-decoration: none;
-  color: white;
-
+#galleryWrap div:nth-child(3n+4) {
+  clear: left;
 }
 
-.portfolioExample {
-  width: 300px;
+.exampleWrap {
   height: 200px;
+  width: 29%;
+  margin: 2%;
+  border: 1px solid white;
   border-radius: 10px;
   display: inline-block;
   position: relative;
   float: left;
-  text-align: center;
-  background-image: url('images/maraj.jpg');
-  background-position: center;
+  background-image: url('images/maraj2.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0px 0px 40px salmon;
-}
-
-/*.portfolioExample:hover{
- transform: scale(1.5, 1.5);
- -moz-transform: scale(1.5, 1.5);
--ms-transform: scale(1.5, 1.5);
--webkit-transform: scale(1.5, 1.5);
--o-transform: scale(1.2, 1.2);
-z-index: 9999;
-}*/
-
-
-/*.portfolioExample:hover {
-  transition: all 200ms ease-in;
-  transform: scale(1);
-}*/
-
-.example1 {
-  background-image: url('images/maraj.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
-.clearPortfolio {
-  clear: left;
+
+.galleryLink {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;
 }
 
 .galleryTitle {
-  width: 50px;
-  margin: 0;
-  background-color: rgba(186, 6, 217, 0.8);
-  position: absolute;
-  top: 0;
-  border-top-left-radius: 10px;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 5px;
+    background-color: purple;
+    border-top-left-radius: 10px;
 }
 
-.bottomCaption {
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  background-color: rgba(186, 6, 217, 0.8);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-
-}
 
 /*---RESUME PAGE----*/
 

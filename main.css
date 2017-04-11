@@ -94,6 +94,14 @@ header {
   box-shadow: 0px 0px 40px white;
 }
 
+.imageLink:hover{
+ transform: scale(1.5, 1.5);
+ -moz-transform: scale(1.5, 1.5);
+-ms-transform: scale(1.5, 1.5);
+-webkit-transform: scale(1.5, 1.5);
+-o-transform: scale(1.5, 1.5);
+}
+
 .imgText {
   margin: 0px;
   padding: 0px;
@@ -204,20 +212,73 @@ ol {
     margin-top: 30px;
     overflow: auto;
     text-align: center;
-    border: 1px solid salmon;
+    /*border: 1px solid salmon;*/
+}
+
+.portfolioLink {
+  text-decoration: none;
+  color: white;
+
 }
 
 .portfolioExample {
-  width: 200px;
+  width: 300px;
   height: 200px;
-  background-color: salmon;
-  border-radius: 5%;
+  border-radius: 10px;
   display: inline-block;
+  position: relative;
   float: left;
+  text-align: center;
+  background-image: url('images/maraj.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 40px salmon;
+}
+
+/*.portfolioExample:hover{
+ transform: scale(1.5, 1.5);
+ -moz-transform: scale(1.5, 1.5);
+-ms-transform: scale(1.5, 1.5);
+-webkit-transform: scale(1.5, 1.5);
+-o-transform: scale(1.2, 1.2);
+z-index: 9999;
+}*/
+
+
+/*.portfolioExample:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}*/
+
+.example1 {
+  background-image: url('images/maraj.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .clearPortfolio {
   clear: left;
+}
+
+.galleryTitle {
+  width: 50px;
+  margin: 0;
+  background-color: rgba(186, 6, 217, 0.8);
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 10px;
+}
+
+.bottomCaption {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(186, 6, 217, 0.8);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
 }
 
 /*---RESUME PAGE----*/

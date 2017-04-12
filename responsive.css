@@ -81,8 +81,31 @@
   }
 
 /*---ABOUT PAGE 900----*/
+#aboutPara {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+}
 
+blockquote {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+  color: salmon;
+}
 
+#inSearchOf {
+  width: 70%;
+  margin: 0 auto;
+}
+
+ol {
+  margin: 0 auto;
+  margin-top: 20px;
+}
   /*---RESUME PAGE 900----*/
 
   .tripleSplit {
@@ -142,6 +165,25 @@ header {
     box-shadow: none;
   }
 
+  /*---ABOUT PAGE 400----*/
+  blockquote {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: salmon;
+  }
+
+  ol {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    list-style-position: inside;
+    margin-top: 20px;
+  }
   /*---RESUME PAGE----*/
 
   .tripleSplit {

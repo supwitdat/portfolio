@@ -83,6 +83,7 @@ header {
   /*border: 1px dotted gray;*/
 }
 
+
 .imageLink {
   width: 160px;
   height: 160px;
@@ -101,6 +102,9 @@ header {
 -webkit-transform: scale(1.5, 1.5);
 -o-transform: scale(1.5, 1.5);
 }
+
+
+
 
 .imgText {
   margin: 0px;
@@ -220,7 +224,6 @@ ol {
   height: 200px;
   width: 29%;
   margin: 2%;
-  border: 1px solid white;
   border-radius: 10px;
   display: inline-block;
   position: relative;
@@ -229,6 +232,7 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  box-shadow: 0 0 35px salmon;
 }
 
 
@@ -250,6 +254,24 @@ ol {
     padding: 5px;
     background-color: purple;
     border-top-left-radius: 10px;
+}
+
+
+.galleryPara {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-family: serif;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 

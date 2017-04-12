@@ -76,14 +76,33 @@
     height: 200px;
     width: 40%;
     margin: 3%;
-    border: 1px solid white;
     display: inline-block;
     float: left;
   }
 
+/*---ABOUT PAGE 900----*/
 
+
+  /*---RESUME PAGE 900----*/
+
+  .tripleSplit {
+    height: auto;
+    width: 50%;
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    float: left;
+    /*border: 1px solid salmon; */
+    text-align: center;
+  }
+
+
+.clearBoth {
+  clear: both;
 }
 
+
+}
 
 
 @media screen and (max-width: 600px) {
@@ -113,12 +132,28 @@ header {
 
   .exampleWrap {
     height: 200px;
-    width: 100%;
+    width: 97%;
     margin: 0%;
     margin-bottom: 5%;
     display: block;
+    border: 1px solid salmon;
     border-radius: 5px;
     float: left;
+    box-shadow: none;
   }
+
+  /*---RESUME PAGE----*/
+
+  .tripleSplit {
+    height: auto;
+    width: 99%;
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    float: left;
+    /*border: 1px solid salmon; */
+    text-align: center;
+  }
+
 
 }

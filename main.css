@@ -235,7 +235,24 @@ ol {
   box-shadow: 0 0 35px salmon;
 }
 
+#seatResPic {
+  background-image: url('images/seatReservation.png');
+}
 
+#portfolioPic {
+  background-image: url('images/portfolio.png');
+}
+
+#madlib {
+  background-image: url('images/madlib.png');
+}
+#snowflakeCircle {
+  background-image: url('images/snowflake.png');
+}
+
+#bootStrapSite {
+  background-image: url('images/bootstrap.png');
+}
 .galleryLink {
   height: 100%;
   width: 100%;

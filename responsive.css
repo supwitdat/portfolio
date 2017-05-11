@@ -10,7 +10,6 @@
     top: 50%;
     margin-top: -150px;
     border-radius: 50%;
-    /*border: 1px dotted gray;*/
   }
 
   .imageLink {
@@ -125,15 +124,33 @@ ol {
 }
 
 
+.contactInfo {
+  font-size: 25px;
+
+}
+
 }
 
 
 @media screen and (max-width: 600px) {
 
-header {
-  display: none;
+.resp_portWrap {
+  margin-top: 100px;
 }
 
+  header {
+    height: auto;
+  }
+
+  .nav_link {
+    height: auto;
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+  }
 
 /* 600px INDEX.html */
   #left_side {
@@ -151,6 +168,10 @@ header {
 
   #galleryWrap div:nth-child(1) {
     dislay: none;
+  }
+
+  .galleryTitle {
+    border-top-left-radius: 5px;
   }
 
   .exampleWrap {
@@ -186,6 +207,19 @@ header {
   }
   /*---RESUME PAGE----*/
 
+   .resumeMain {
+     margin-top: 70px;
+   }
+
+   .resp_link {
+     float: left;
+     font-size: 25px;
+   }
+
+   .resp_link:nth-child(2n+3){
+     clear: left;
+   }
+
   .tripleSplit {
     height: auto;
     width: 99%;
@@ -195,6 +229,25 @@ header {
     float: left;
     /*border: 1px solid salmon; */
     text-align: center;
+  }
+
+  /*---CONTACT PAGE----*/
+  .contactInfo {
+    width: auto;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+  }
+
+  .contactInfo a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .contactInfo li {
+    margin: 30px 0px;
   }
 
 
